@@ -1,0 +1,112 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+
+     background-size: cover;
+     font-family: 'Times New Roman', Times, serif;
+    }
+
+.resume-page {
+    background-color: white;
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 40px;
+}
+
+.headlines {
+ 
+  
+}
+
+.resume-border {
+    border-radius: 20px; 
+    box-shadow: 0 0 0 5px pink; 
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.resume {
+    margin: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 3%;
+}
+.left-column {
+            flex: 1;
+            margin-right: 2rem;
+        }
+.right-column {
+            flex: 2;
+        }
+
+
+  
+@media (max-width: 768px) {
+    .resume {
+        flex-direction: column;
+        margin: 1rem;
+        gap: 2rem;
+    }
+    
+    .resume-border {
+        margin: 0.5rem;
+        padding: 0.25rem;
+    }
+    
+    .resume-page {
+        max-width: 95%;
+        padding: 0.5rem;
+    }
+}
+.paramagkatabi {
+    display: flex;
+    gap: 1rem;
+}
+.achievements {
+    flex: 1;
+}
+.training {
+    flex: 1;
+}
+
+#pinkh {
+    background-color: pink;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#charr p {
+    font-size: 25px;
+    margin-top: 0;
+    margin-right: 1rem;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+.signa {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer p,
+.footer h4,
+.footer h5 {
+    margin: 0;
+    padding: 0;
+}
+ 
+.footer hr {
+    margin: 10px 0; /* adjust as needed */
+    height: 3px;
+    background-color: black;
+}
